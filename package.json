@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d dist"
+    "build": "babel src --watch -d dist"
   },
-  "browserslist": "> 0.25%", 
+  "browserslist": "> 0.25%",
   "author": "",
   "license": "ISC",
   "devDependencies": {
