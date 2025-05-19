@@ -54,6 +54,8 @@ function filtraAlunosDeBackend(aluno) {
     return aluno.curso === 'Backend' // true ou false
 }
 
+const alunosDeBackend2 = aluno => aluno.curso === 'Backend'; // apenas uma linha ao inves de tres
+
 const alunosDeBackend = alunos2.filter(filtraAlunosDeBackend) 
 
 console.log(alunosDeBackend);

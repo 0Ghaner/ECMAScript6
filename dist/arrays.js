@@ -41,6 +41,10 @@ console.log(existeAlgumAlunoDeBackend);
 function filtraAlunosDeBackend(aluno) {
   return aluno.curso === 'Backend'; // true ou false
 }
+var alunosDeBackend2 = function alunosDeBackend2(aluno) {
+  return aluno.curso === 'Backend';
+}; // apenas uma linha ao inves de tres
+
 var alunosDeBackend = alunos2.filter(filtraAlunosDeBackend);
 console.log(alunosDeBackend);
 var nums = [10, 20, 30, 10];
